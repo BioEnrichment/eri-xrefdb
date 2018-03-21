@@ -1,0 +1,25 @@
+{
+  "name": "eri-xrefdb",
+  "version": "0.1.0",
+  "description": "",
+  "main": "XRefDatasource.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Alastair McLaughlin <j.a.mclaughlin@ncl.ac.uk>",
+  "license": "BSD-2-Clause",
+  "@std/esm": "cjs",
+  "dependencies": {
+    "@std/esm": "^0.19.1",
+    "eri-config": "git+https://github.com/BioEnrichment/eri-config.git",
+    "express": "^4.16.2",
+    "level": "^2.1.1",
+    "n3": "^0.11.2",
+    "pg": "^7.4.0",
+    "pg-monitor": "^0.8.3",
+    "pg-promise": "^7.3.2",
+    "request": "^2.83.0",
+    "requireg": "^0.1.7",
+    "sha1": "^1.1.1"
+  }
+}

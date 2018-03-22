@@ -4,7 +4,8 @@
   "description": "",
   "main": "XRefDatasource.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --require @std/esm lib/server.js"
   },
   "author": "James Alastair McLaughlin <j.a.mclaughlin@ncl.ac.uk>",
   "license": "BSD-2-Clause",
